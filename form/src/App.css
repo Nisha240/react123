@@ -1,0 +1,53 @@
+.App{
+  display: flex;
+ justify-content: center;
+ padding: 40;
+ border: 10px;
+ 
+}
+label{
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+  
+}
+input[type=text]
+input[type=email]
+input[type=textarea]
+{
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.425664;
+  color: #fff;
+  background-color: #fff;
+  margin-bottom: 40px;
+border:2px solid black;
+background-image: none;
+border-radius: 4px;
+
+border-width: 10px;
+}
+button{
+
+  margin-top: 80px;
+  
+}
+.form-control{
+  margin-bottom: 20px;
+}
+
+.error{
+  color:red;
+}
+.nice{
+  color: green;
+}
+.xyz{
+  border: 3px;
+  border-radius: 5px;
+  border-width: 4px;
+  padding: 15px;
+  border-style: outset solid groove;
+}
